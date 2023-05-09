@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    background-color: #0A2647;
+    justify-content:center;
+    padding: 48px 0;
+}
+
+.title {
+    font-size: 60px;
+}
+
+.main {
+    background-color: #144272;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.head-score {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    margin-top: 30px;
+    font-size: 48px;
+}
+
+.score-box {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin: 2em
+}
+
+.score {
+    font-size: 56px;
+}
+
+.sign-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+}
+
+.sign {
+    font-size: 70px;
+    padding: 10px;
+}
+
+.versus {
+    font-size: 50px;
+    padding: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 2em
+}
+
+.btn {
+    border-radius: 10px;
+    background-color: #5B8FB9;
+}
+
+.btn:hover{
+    background-color: #B6EADA;
+}
+
+.btn-sign {
+    width: 160px;
+    height: 160px;
+    font-size: 120px;
+}
+
+.footer {
+    background-color: #0A2647;
+    justify-content: center;
+    display: flex;
+}
+
+.copyright {
+    font-size: 20px;
+    padding: 10px 0;
+}
