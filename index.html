@@ -21,7 +21,7 @@
             </p>
             <div class="score-box">
                 <p class="score" id="playerScore">0</p>
-                <p class="score" id="info-score">score</p>
+                <p class="score" id="infoScore">score</p>
                 <p class="score" id="computerScore">0</p>
             </div>
         </div>
@@ -33,11 +33,14 @@
         <div class="button">
             <button class="btn btn-sign" id="btnRock">✊</button>
             <button class="btn btn-sign" id="btnPaper">✋</button>
-            <button class="btn btn-sign" id="btnScissor">✌️</button>
+            <button class="btn btn-sign" id="btnScissors">✌️</button>
         </div>
     </div>
     <footer class="footer">
-        <h5 class="copyright">Copyright © 2023 Reyndomly</h5>
+        <h5 class="copyright">Copyright © <script>
+            document.write(new Date().getFullYear())
+          </script> Reyndomly</h5>
     </footer>
+    <script src="app.js"></script>
 </body>
 </html>
