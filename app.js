@@ -56,7 +56,11 @@ btnScissors.addEventListener('click', () => handleClick('SCISSORS'))
 
 function handleClick(playerSelection) {
   if (isGameOver()) {
-    alert("Game Over");
+    if (playerScore === 5) {
+      alert("Congratulation You Win!")
+    } else {
+      alert("Game Over. You Lose!");
+    }
     restartGame();
     return
   }
